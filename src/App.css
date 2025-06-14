@@ -1,0 +1,20 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+body {
+  background-color: var(--color-ivory);
+  color: var(--color-charcoal);
+}
+
+button.primary {
+  background-color: var(--color-deep-sapphire);
+  color: var(--color-cloud-white);
+}
+
+button.secondary {
+  background-color: var(--color-muted-gold);
+  color: var(--color-charcoal);
+}
