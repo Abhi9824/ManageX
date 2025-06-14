@@ -1,12 +1,89 @@
-# React + Vite
+# 🚀 ManageX – Engineering Project & Resource Management Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**ManageX** is a full-stack project and resource management platform designed for engineering teams. Built with a modern tech stack, it enables managers to create projects, assign engineers, monitor capacity, and streamline collaboration — all through a clean, responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- **Frontend:** React.js, Tailwind CSS
+- **Backend:** Express.js, Node.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JSON Web Tokens (JWT)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Key Features
+
+### 🔐 Role-Based Dashboards
+- **Manager Dashboard**
+  - Create and manage projects
+  - Assign engineers with percentage-based capacity allocation
+  - View and track all assignments
+  - Monitor engineer capacity using visual progress bars
+- **Engineer Dashboard**
+  - View assigned projects and related details
+
+### 💻 Responsive & Intuitive UI
+- Built with Tailwind CSS for a modern, mobile-friendly experience
+- Smooth modals and transitions for enhanced usability
+
+### 🔒 Secure Authentication
+- JWT-based authentication system
+- Role-based route protection for secure access
+
+---
+
+## 👤 Demo Access
+
+Use the following credentials to try out the **Manager**  and **Engineer** dashboards:
+
+- **Name:** Gourav  
+- **Email:** gourav@gmail.com
+- **Password: gourav123
+- **Role:** Manager
+
+- **Name:** sourav  
+- **Email:** sourav@gmail.com
+- **Password: sourav123
+- **Role:** Engineer
+
+
+---
+
+## 📦 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo.git](https://github.com/Abhi9824/ManageX.git)
+cd your-repo
+
+### 2. Clone the Repository
+cd client
+npm install
+
+3. Start the Development Server
+npm run dev
+
+📁 Project Structure
+client/
+  ├── src/
+  │   ├── components/     # Reusable UI components (Navbar, Modals, etc.)
+  │   ├── pages/          # Dashboard pages (ManagerDashboard, EngineerDashboard)
+  │   ├── features/       # Redux Toolkit slices (engineers, projects, assignments)
+  │   ├── utils/          # Axios instance, ProtectedRoute, helpers
+  │   ├── App.jsx         # Application routing and layout
+  │   └── index.js        # Entry point
+
+server/
+  ├── models/             # Mongoose schemas for User, Project, Assignment
+  ├── routes/             # Express routes for auth, projects, users
+  ├── middleware/         # Role-based authorization, error handling
+  └── server.js           # Main server entry
+
+
+You can find the backend source code here:
+👉 https://github.com/Abhi9824/engineering-resources-backend
+
+### ⚡ ManageX — Simplifying project and resource management for engineering teams.
