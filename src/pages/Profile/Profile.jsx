@@ -140,7 +140,7 @@ const Profile = () => {
 
       {/* Modal */}
       {isModalOpen && (
-        <div className="fixed inset-0 z-50 bg-black bg-opacity-50 flex justify-center items-center p-4">
+        <div className="fixed inset-0 z-50 bg-white/30 backdrop-blur-sm flex justify-center items-center p-4">
           <div className="bg-white rounded-lg shadow-lg w-full max-w-md p-6">
             <h3 className="text-xl font-bold mb-4">Edit Profile</h3>
             <form onSubmit={handleSubmit} className="space-y-4">
